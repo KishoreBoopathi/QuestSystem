@@ -3,16 +3,18 @@
 # =============== #
 [Tt]emp/
 [Oo]bj/
-[Bb]uild
+/[Bb]uild/
 /[Bb]uilds/
 /[Ll]ibrary/
 /[Ll]ogs/
+/[Uu]ser[Ss]ettings/
 sysinfo.txt
 *.stackdump
-/Assets/AssetStoreTools*
 *.apk
 *.unitypackage
- 
+packages-lock.json
+/Assets/AssetStoreTools*
+
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
@@ -22,6 +24,8 @@ sysinfo.txt
 /*.csproj
 /*.pidb
 *.pidb.meta
+*.pdb.meta
+*.mdb.meta
 /*.suo
 /*.sln*
 /*.user
@@ -30,7 +34,12 @@ sysinfo.txt
 .consulo/
 /*.tmp
 /*.svd
- 
+
+# ======= #
+# Android #
+# ======= #
+.gradle/
+
 # ============ #
 # OS generated #
 # ============ #
@@ -42,5 +51,3 @@ Icon?
 ehthumbs.db
 [Tt]humbs.db
 [Dd]esktop.ini
-Corridor/Library/ShaderCache/
-Corridor/Library/metadata/
